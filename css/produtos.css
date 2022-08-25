@@ -1,0 +1,39 @@
+
+.produtos-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-top: 2px solid blue;
+}
+
+.titulo-produto{
+    font-size: 3rem;
+    padding: 25px;
+}
+.img-produtos{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.img-produtos h1{
+    padding: 60px;
+    background-color: beige;
+}
+
+.img-produto {
+    flex: 1 0 200px;
+}
+
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+.pink{
+    border-top: 8px solid #f9265e;
+}
+
+.blue{
+    border-top: 8px solid #66d9eb;
+}

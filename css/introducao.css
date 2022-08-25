@@ -1,0 +1,47 @@
+
+main{
+    display: flex;
+}
+
+.titulo{
+    border-bottom: 2px solid blue;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.titulo h1{
+    text-align: left;
+    padding: 30px;
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.introducao-container{
+    max-width: 960px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.sobre{
+    flex: 2 1 300px;
+	margin: 0 10px;
+}
+
+.sobre p{
+    font-size: 1.5rem;
+    color: #7c7c7c;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+	margin: 0 10px;
+}
+
+.sobre h2{
+    font-size: 3rem;
+    padding: 20px 0;
+}
+

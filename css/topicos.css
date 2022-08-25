@@ -1,0 +1,54 @@
+
+#topico{
+    background-color: white;
+}
+
+.topico-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: 960px;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.topico {
+    flex: 1 1 260px;
+    padding: 10px;
+}
+
+.topico h1{
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7c7c7c;
+    position: relative;
+}
+
+.topico h1::before{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    left: -14px;
+}
+
+.topico:nth-child(1) h1::before {
+	background: #ae81ff;
+}
+
+.topico:nth-child(3n + 3) h1::before {
+	background: #66d9eb;
+}
+
+.topico:nth-child(2n + 2) h1::before {
+	background: #f9265e;
+}
+
+
+.topico p{
+    color: #7c7c7c;
+    font-size: 1.2rem;
+}
